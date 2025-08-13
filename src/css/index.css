@@ -1,0 +1,73 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none;
+}
+
+.gallery-item {
+    width: calc(25% - 10px);
+}
+
+.info {
+    font-size: 12px;
+}
+
+.loader.hidden {
+    display: none;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 36px 0px 32px;
+}
+
+label {
+   
+}
+
+input {
+    width: 272px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+input:hover {
+    border-color: black;
+}
+
+input:focus:not(:placeholder-shown) {
+    border-color: #4a6cff;
+}
+        
+button {
+    background-color: #4a6cff;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #3c59d9;
+}
+
+button:active {
+    background-color: #2e46b8;
+}
+
+        
+        
+         
+            
